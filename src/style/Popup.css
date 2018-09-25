@@ -1,0 +1,222 @@
+#popup .container-popup-pop {
+  position: absolute;
+  z-index: 999; }
+  #popup .container-popup-pop .popup-pop {
+    position: absolute;
+    z-index: 1000;
+    width: 590px;
+    color: #000; }
+    #popup .container-popup-pop .popup-pop.wide {
+      width: 820px; }
+    #popup .container-popup-pop .popup-pop .popup-pop-button-top {
+      position: absolute;
+      z-index: 999;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      width: 40px;
+      height: 40px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: none; }
+      #popup .container-popup-pop .popup-pop .popup-pop-button-top:active {
+        opacity: 0.7; }
+    #popup .container-popup-pop .popup-pop .popup-pop-button-bottom {
+      position: absolute;
+      z-index: 998;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 40px;
+      height: 40px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: none;
+      background-size: 1%;
+      transition: background-size 0.3s linear; }
+      #popup .container-popup-pop .popup-pop .popup-pop-button-bottom.selected {
+        background-size: 100%; }
+        .system-0 #popup .container-popup-pop .popup-pop .popup-pop-button-bottom.selected {
+          background-image: url("../img/system-0-popup-btn-active.png") !important; }
+        .system-1 #popup .container-popup-pop .popup-pop .popup-pop-button-bottom.selected {
+          background-image: url("../img/system-1-popup-btn-active.png") !important; }
+        .system-2 #popup .container-popup-pop .popup-pop .popup-pop-button-bottom.selected {
+          background-image: url("../img/system-2-popup-btn-active.png") !important; }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-0 {
+      background-image: url("../img/popup-btn-1.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-1 {
+      background-image: url("../img/popup-btn-2.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-2 {
+      background-image: url("../img/popup-btn-3.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-3 {
+      background-image: url("../img/popup-btn-4.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-4 {
+      background-image: url("../img/popup-btn-5.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-5 {
+      background-image: url("../img/popup-btn-6.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-6 {
+      background-image: url("../img/popup-btn-7.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-7 {
+      background-image: url("../img/popup-btn-8.png"); }
+    #popup .container-popup-pop .popup-pop #popup-pop-button-top-8 {
+      background-image: url("../img/popup-btn-9.png"); }
+    #popup .container-popup-pop .popup-pop .bottom-left {
+      top: calc(100% + 84px) !important;
+      left: 25% !important; }
+    #popup .container-popup-pop .popup-pop .bottom-right {
+      top: calc(100% + 84px) !important;
+      left: 75% !important; }
+    #popup .container-popup-pop .popup-pop .top-left {
+      top: -84px !important;
+      left: 25% !important; }
+    #popup .container-popup-pop .popup-pop .top-right {
+      top: -84px !important;
+      left: 75% !important; }
+    #popup .container-popup-pop .popup-pop .left {
+      left: -84px !important; }
+    #popup .container-popup-pop .popup-pop .right {
+      left: calc(100% + 84px) !important; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble {
+      background-color: #fff;
+      min-height: 230px;
+      display: inline-block; }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-image {
+        float: left;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        width: 222px;
+        height: 222px;
+        background-size: 101%;
+        border: 4px solid #fff;
+        overflow: hidden; }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-harmful-algae {
+        background-image: url("../img/popup/Upwell_harmful-algae-bloom.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-mammal-impact {
+        background-image: url("../img/popup/Upwell_marine-mammal-impacts.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-ocean-research {
+        background-image: url("../img/popup/Upwell_ocean-research.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-plankton-bloom {
+        background-image: url("../img/popup/Upwell_plankton-bloom.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-shelter-kelp {
+        background-image: url("../img/popup/Upwell_sheltered-by-kelp.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-kelp-forest {
+        background-image: url("../img/popup/Upwell_kelp-forest.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-dining-destinations {
+        background-image: url("../img/popup/Upwell_dining-destinations.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-disappearing-kelp {
+        background-image: url("../img/popup/Upwell_disappearing-kelp.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-upwelling-toxic-buffet {
+        background-image: url("../img/popup/Upwell_toxic-buffet.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-carbon-land-on-the-move {
+        background-image: url("../img/popup/Carbon_land-on-the-move.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-carbon-seafood-connection {
+        background-image: url("../img/popup/Carbon_seafood-connection.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-carbon-volcano-remnants {
+        background-image: url("../img/popup/Carbon_volcano-remnants.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-carbon-oil-reservoirs {
+        background-image: url("../img/popup/Carbon_californias-oil-reservoirs.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-carbon-air-and-ocean-interact {
+        background-image: url("../img/popup/Carbon_air-and-ocean-interact.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-carbon-forests-store-carbon {
+        background-image: url("../img/popup/Carbon_forests-store-carbon.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-field-of-fog {
+        background-image: url("../img/popup/Fog_field-of-fog.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-fog-blanket {
+        background-image: url("../img/popup/Fog_fog-blanket.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-fog-drip {
+        background-image: url("../img/popup/Fog_fog-drip.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-fantastic-fog-flows {
+        background-image: url("../img/popup/Fog_fantastic-fog-flows.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-drink-from-the-sea {
+        background-image: url("../img/popup/Fog_drink-from-the-sea.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-coastal-contours {
+        background-image: url("../img/popup/Fog_coastal-contours.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-chardonnay-loves-fog {
+        background-image: url("../img/popup/Fog_chardonnay-loves-fog.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-water-in-the-air {
+        background-image: url("../img/popup/Fog_water-in-the-air.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble #pop-image-fog-watershed-refill {
+        background-image: url("../img/popup/Fog_watershed-refill.png"); }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-btn-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background-image: url("../img/popup-btn-close.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        width: 10px;
+        height: 10px; }
+        #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-btn-close:active {
+          opacity: 0.7; }
+      #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-text-container {
+        float: left;
+        padding: 17px 20px 13px 20px;
+        width: 550px; }
+        #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-text-container h1 {
+          font-family: 'W-Semibold', 'SourceHanSansCN-Medium';
+          font-size: 28px;
+          line-height: 33px;
+          font-weight: normal;
+          padding-bottom: 11px; }
+          .system-0 #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-text-container h1 {
+            color: #009cde; }
+          .system-1 #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-text-container h1 {
+            color: #ea8600; }
+          .system-2 #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-text-container h1 {
+            color: #6cc24a; }
+        #popup .container-popup-pop .popup-pop .popup-pop-bubble .popup-pop-bubble-text-container p {
+          font-family: 'W-Book', 'SourceHanSansCN-Normal';
+          font-size: 22px;
+          line-height: 26px;
+          font-weight: normal; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-top-left,
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-top-right,
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-right,
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-bottom-left,
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-bottom-right,
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-left {
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.4; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-top-left {
+      top: -24px !important;
+      left: 25% !important;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 54px solid #fff; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-top-right {
+      top: -24px !important;
+      left: 75% !important;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 54px solid #fff; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-right {
+      left: calc(100% + 22px) !important;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+      border-left: 54px solid #fff; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-bottom-left {
+      top: calc(100% + 22px) !important;
+      left: 25% !important;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-top: 54px solid #fff; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-bottom-right {
+      top: calc(100% + 22px) !important;
+      left: 75% !important;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-top: 54px solid #fff; }
+    #popup .container-popup-pop .popup-pop .popup-pop-bubble-tail-left {
+      left: -22px !important;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+      border-right: 54px solid #fff; }
+
+#popup .mask {
+  /*visibility: hidden;*/
+  display: none !important; }

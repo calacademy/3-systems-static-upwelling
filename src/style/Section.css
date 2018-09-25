@@ -1,0 +1,92 @@
+#section {
+  width: 100%;
+  height: 100%; }
+  #section #container-popup {
+    top: 0;
+    position: absolute;
+    z-index: 6;
+    width: 1920px;
+    height: 1080px; }
+  #section #container-sticker {
+    position: absolute;
+    z-index: 5;
+    width: 1920px;
+    height: 1080px; }
+  #section #container-anim {
+    position: absolute;
+    z-index: 4;
+    width: 1920px;
+    height: 1080px; }
+  #section #section-attract-initiator {
+    position: absolute;
+    top: 45px;
+    left: 474px;
+    z-index: 8;
+    width: 1446px;
+    height: 1035px; }
+  #section .section-infobar {
+    position: absolute;
+    top: 45px;
+    z-index: 7;
+    width: 474px;
+    height: 1035px; }
+    .system-0 #section .section-infobar {
+      background-color: #003a70; }
+    .system-1 #section .section-infobar {
+      background-color: #96381a; }
+    .system-2 #section .section-infobar {
+      background-color: #44693d; }
+    #section .section-infobar .section-text {
+      width: 374px;
+      margin: 38px 50px 50px 50px; }
+      #section .section-infobar .section-text h1 {
+        font-family: 'W-Narrow-Book', 'SourceHanSansCN-Normal';
+        font-size: 60px;
+        line-height: 64px;
+        font-weight: normal;
+        padding-bottom: 32px; }
+        .system-0 #section .section-infobar .section-text h1 {
+          color: #009cde; }
+        .system-1 #section .section-infobar .section-text h1 {
+          color: #ff9e1b; }
+        .system-2 #section .section-infobar .section-text h1 {
+          color: #6cc24a; }
+      #section .section-infobar .section-text p {
+        font-family: 'W-Medium', 'SourceHanSansCN-Medium';
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #fff; }
+  #section .section-header {
+    /*
+    background-image: linear-gradient(to right, $blue, $blue, $blue, $blue, transparent);
+
+    .system-0 & {
+      background-image: linear-gradient(to right, $blue, $blue, $blue, $blue, transparent);
+    }
+    .system-1 & {
+      background-image: linear-gradient(to right, $orange, $orange, $orange, $orange, transparent);
+    }
+    .system-2 & {
+      background-image: linear-gradient(to right, $green, $green, $green, $green, transparent);
+    }
+    */ }
+    #section .section-header h1 {
+      font-family: 'W-Narrow-Book', 'SourceHanSansCN-Normal';
+      font-size: 60px;
+      line-height: 70px;
+      font-weight: normal;
+      color: #fff; }
+  #section .section-description {
+    position: absolute;
+    z-index: 6;
+    top: 80px;
+    margin-left: 50px; }
+    #section .section-description p {
+      font-family: 'W-Medium', 'SourceHanSansCN-Medium';
+      margin-top: 96px;
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: normal;
+      color: #000;
+      width: 600px; }

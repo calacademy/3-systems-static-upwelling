@@ -1,0 +1,237 @@
+@import "./_vars.scss";
+
+#anim {
+
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+
+  #container-images {
+    position: relative;
+    height: 1080px;
+    float: left;
+    left: 0px;
+
+    img {
+      width: 1920px;
+      height: 1080px;
+      border: none;
+      display: block !important;
+      float: left;
+    }
+
+    &.play-fog-play-all {
+      width: 1912320px;
+      animation: play-fog-play-all 36s steps(996) infinite;
+    }
+
+    &.play-upwelling-play-all {
+      width: 1520640px;
+      animation: play-upwelling-play-all 28s steps(792) infinite;
+    }
+
+    &.play-upwelling-california-current {
+      width: 577920px;
+      animation: play-upwelling-california-current 11s steps(301) infinite;
+    }
+
+    &.play-upwelling-prevailing-winds {
+      width: 577920px;
+      animation: play-upwelling-prevailing-winds 11s steps(301) infinite;
+    }
+
+    &.play-upwelling-nutrient-rich-water {
+      width: 789120px;
+      animation: play-upwelling-nutrient-rich-water 15s steps(411) infinite;
+    }
+
+    &.play-upwelling-plankton-bloom {
+      width: 577920px;
+      animation: play-upwelling-plankton-bloom 11s steps(301) infinite;
+    }
+
+    &.play-upwelling-sea-of-change {
+      width: 577920px;
+      animation: play-upwelling-sea-of-change 11s steps(301) infinite;
+    }
+
+    &.play-upwelling-toxic-bloom {
+      width: 693120px;
+      animation: play-upwelling-toxic-bloom 13s steps(361) infinite;
+    }
+
+    &.play-carbon-play-all {
+      width: 1933440px;
+      animation: play-carbon-play-all 36s steps(1007) infinite;
+    }
+
+    &.play-carbon-san-andreas-fault {
+      width: 577920px;
+      animation: play-carbon-san-andreas-fault 11s steps(301) infinite;
+    }
+
+    &.play-carbon-volcanoes-spew-carbon {
+      width: 577920px;
+      animation: play-carbon-volcanoes-spew-carbon 11s steps(301) infinite;
+    }
+
+    &.play-carbon-carbon-returns-to-rock {
+      width: 768000px;
+      animation: play-carbon-carbon-returns-to-rock 14s steps(400) infinite;
+    }
+
+    &.play-carbon-oil-reservoirs {
+      width: 579840px;
+      animation: play-carbon-oil-reservoirs 11s steps(302) infinite;
+    }
+
+    &.play-fog-california-current {
+      width: 577920px;
+      animation: play-fog-california-current 11s steps(301) infinite;
+    }
+
+    &.play-fog-valley-vacuum {
+      width: 577920px;
+      animation: play-fog-valley-vacuum 11s steps(301) infinite;
+    }
+
+    &.play-fog-fog-blanket {
+      width: 856320px;
+      animation: play-fog-fog-blanket 16s steps(446) infinite;
+    }
+
+    &.play-fog-ephemeral-fog {
+      width: 616320px;
+      animation: play-fog-ephemeral-fog 11s steps(321) infinite;
+    }
+
+    &.play-fog-fantastic-fog-flows {
+      width: 577920px;
+      animation: play-fog-fantastic-fog-flows 11s steps(301) infinite;
+    }
+
+    &.play-fog-coastal-contours {
+      width: 577920px;
+      animation: play-fog-coastal-contours 11s steps(301) infinite;
+    }
+
+    &.play-fog-watershed-refill {
+      width: 577920px;
+      animation: play-fog-watershed-refill 11s steps(301) infinite;
+    }
+
+    &.play-fog-navigating-fog {
+      width: 577920px;
+      animation: play-fog-navigating-fog 11s steps(301) infinite;
+    }
+
+  }
+
+}
+
+/* to left = animation steps * -1920 */
+
+@keyframes play-upwelling-play-all {
+  from { left: 0; }
+  to   { left: -1520640px; }
+}
+
+@keyframes play-upwelling-california-current {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-upwelling-prevailing-winds {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-upwelling-nutrient-rich-water {
+  from { left: 0; }
+  to   { left: -789120px; }
+}
+
+@keyframes play-upwelling-plankton-bloom {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-upwelling-sea-of-change {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-upwelling-toxic-bloom {
+  from { left: 0; }
+  to   { left: -693120px; }
+}
+
+@keyframes play-carbon-play-all {
+  from { left: 0; }
+  to   { left: -1933449px; }
+}
+
+@keyframes play-carbon-san-andreas-fault {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-carbon-volcanoes-spew-carbon {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-carbon-carbon-returns-to-rock {
+  from { left: 0; }
+  to   { left: -768000px; }
+}
+
+@keyframes play-carbon-oil-reservoirs {
+  from { left: 0; }
+  to   { left: -579840px; }
+}
+
+@keyframes play-fog-play-all {
+  from { left: 0; }
+  to   { left: -1912320px; }
+}
+
+@keyframes play-fog-california-current {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-fog-valley-vacuum {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-fog-fog-blanket {
+  from { left: 0; }
+  to   { left: -856320px; }
+}
+
+@keyframes play-fog-ephemeral-fog {
+  from { left: 0; }
+  to   { left: -616320px; }
+}
+
+@keyframes play-fog-fantastic-fog-flows {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-fog-coastal-contours {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-fog-watershed-refill {
+  from { left: 0; }
+  to   { left: -577920px; }
+}
+
+@keyframes play-fog-navigating-fog {
+  from { left: 0; }
+  to   { left: -577920px; }
+}

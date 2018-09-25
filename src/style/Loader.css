@@ -1,0 +1,108 @@
+#loader #asset-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 998;
+  opacity: 0; }
+  #loader #asset-container img {
+    width: 50px;
+    height: 30px;
+    float: left; }
+  #loader #asset-container #loader-source-images div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+    background-position: 0, 0;
+    background-repeat: no-repeat; }
+  #loader #asset-container #loader-source-images #carbon_air-and-ocean-interact {
+    background-image: url("../img/popup/Carbon_air-and-ocean-interact.png"); }
+  #loader #asset-container #loader-source-images #carbon_oil-reservoirs {
+    background-image: url("../img/popup/Carbon_californias-oil-reservoirs.png"); }
+  #loader #asset-container #loader-source-images #carbon_forests-store-carbon {
+    background-image: url("../img/popup/Carbon_forests-store-carbon.png"); }
+  #loader #asset-container #loader-source-images #carbon_land-on-the-move {
+    background-image: url("../img/popup/Carbon_land-on-the-move.png"); }
+  #loader #asset-container #loader-source-images #carbon_seafood-connection {
+    background-image: url("../img/popup/Carbon_seafood-connection.png"); }
+  #loader #asset-container #loader-source-images #carbon_volcano-remnants {
+    background-image: url("../img/popup/Carbon_volcano-remnants.png"); }
+  #loader #asset-container #loader-source-images #fog_chardonnay-loves-fog {
+    background-image: url("../img/popup/Fog_chardonnay-loves-fog.png"); }
+  #loader #asset-container #loader-source-images #fog_coastal-contours {
+    background-image: url("../img/popup/Fog_coastal-contours.png"); }
+  #loader #asset-container #loader-source-images #fog_drink-from-sea {
+    background-image: url("../img/popup/Fog_drink-from-the-sea.png"); }
+  #loader #asset-container #loader-source-images #fog_fantastic-fog-flows {
+    background-image: url("../img/popup/Fog_fantastic-fog-flows.png"); }
+  #loader #asset-container #loader-source-images #fog_field-of-fog {
+    background-image: url("../img/popup/Fog_field-of-fog.png"); }
+  #loader #asset-container #loader-source-images #fog_fog-blanket {
+    background-image: url("../img/popup/Fog_fog-blanket.png"); }
+  #loader #asset-container #loader-source-images #fog_fog-drip {
+    background-image: url("../img/popup/Fog_fog-drip.png"); }
+  #loader #asset-container #loader-source-images #fog_water-in-the-air {
+    background-image: url("../img/popup/Fog_water-in-the-air.png"); }
+  #loader #asset-container #loader-source-images #fog_watershed-refill {
+    background-image: url("../img/popup/Fog_watershed-refill.png"); }
+  #loader #asset-container #loader-source-images #upwelling_dining-destinations {
+    background-image: url("../img/popup/Upwell_dining-destinations.png"); }
+  #loader #asset-container #loader-source-images #upwelling_disappearing-kelp {
+    background-image: url("../img/popup/Upwell_disappearing-kelp.png"); }
+  #loader #asset-container #loader-source-images #upwelling_harmful-algae-bloom {
+    background-image: url("../img/popup/Upwell_harmful-algae-bloom.png"); }
+  #loader #asset-container #loader-source-images #upwelling_kelp-forest {
+    background-image: url("../img/popup/Upwell_kelp-forest.png"); }
+  #loader #asset-container #loader-source-images #upwelling_marine-mammal-impacts {
+    background-image: url("../img/popup/Upwell_marine-mammal-impacts.png"); }
+  #loader #asset-container #loader-source-images #upwelling_ocean-research {
+    background-image: url("../img/popup/Upwell_ocean-research.png"); }
+  #loader #asset-container #loader-source-images #upwelling_plankton-bloom {
+    background-image: url("../img/popup/Upwell_plankton-bloom.png"); }
+  #loader #asset-container #loader-source-images #upwelling_sheltered-by-kelp {
+    background-image: url("../img/popup/Upwell_sheltered-by-kelp.png"); }
+  #loader #asset-container #loader-source-images #upwelling_toxic-buffet {
+    background-image: url("../img/popup/Upwell_toxic-buffet.png"); }
+  #loader #asset-container p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333; }
+  #loader #asset-container p.wa {
+    font-family: 'W-Condensed-Medium'; }
+  #loader #asset-container p.wb {
+    font-family: 'W-Condensed-Semibold'; }
+  #loader #asset-container p.wc {
+    font-family: 'W-Book'; }
+  #loader #asset-container p.wd {
+    font-family: 'W-Medium'; }
+  #loader #asset-container p.we {
+    font-family: 'W-Narrow-Semibold'; }
+  #loader #asset-container p.wf {
+    font-family: 'W-Narrow-Book'; }
+  #loader #asset-container p.wg {
+    font-family: 'W-Semibold'; }
+  #loader #asset-container p.ca {
+    font-family: 'SourceHanSansCN-Normal'; }
+  #loader #asset-container p.cb {
+    font-family: 'SourceHanSansCN-Medium'; }
+  #loader #asset-container p.cc {
+    font-family: 'SourceHanSansCN-Bold'; }
+
+#loader #message-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 997; }
+  #loader #message-container p {
+    margin: 0;
+    padding: 0;
+    margin-top: 500px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: 'W-Narrow-Book', Helvetica, Arial, sans-serif;
+    font-size: 79px;
+    line-height: 79px;
+    font-weight: normal;
+    letter-spacing: 3px; }

@@ -1,0 +1,29 @@
+#system {
+  width: 100%;
+  height: 100%; }
+  #system #container-nav {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 4; }
+  #system #container-section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3; }
+
+.system-0 {
+  background-image: url("../img/system-illustration/system-0.png");
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+.system-1 {
+  background-image: url("../img/system-illustration/system-1.png");
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+.system-2 {
+  background-image: url("../img/system-illustration/system-2.png");
+  background-repeat: no-repeat;
+  background-position: 0 0; }
